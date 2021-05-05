@@ -9,10 +9,15 @@ public class AlgoX {
     }
 
     public static void main(String[] args) {
+        
+        String pl;
+        System.out.println("Ingresa un palabra");
+        Scanner tecla = new Scanner (System.in);
+        pl = tecla.nextLine( );
 
         int asciiValue;
        char cChar;
-       String sFrase = "ALEX";
+       String sFrase = pl;
        char [ ] aChar = sFrase.toCharArray( );
         for (int i = 0; i < aChar.length; i++) {
             System.out.println(" ");
