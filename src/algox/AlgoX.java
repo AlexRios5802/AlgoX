@@ -49,10 +49,10 @@ public class AlgoX {
         aCodigo[25][0] = "--..";
         
             for (int j = 0; j < asciiValue-65; j++) {
-                System.out.println(aCodigo[asciiValue-65] [0]);
+                
             }
             
-            
+            System.out.println(aCodigo[asciiValue-65] [0]);
         }
         
         
